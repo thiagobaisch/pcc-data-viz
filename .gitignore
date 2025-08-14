@@ -1,0 +1,24 @@
+#Python 
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+#Jupyter
+.ipynb_checkpoints/
+
+# OS / Editor
+.DS_Store
+.vscode/
+
+#Data
+data/**/*.csv
+data/**/*.json
+data/**/*.parquet
+!data/raw/.gitkeep
+!data/processed/.
+
+# Figures (you may want to keep generated images; if not, ignore them)
+# figures/
+!figures/.gitkeep
