@@ -10,6 +10,7 @@ while True:
     plt.style.use('ggplot')
     fig, ax = plt.subplots()
 
+    #Added comment
     #We add here a colormap to see the progression of the randomwalk
     #point_numbers is to get the list of points to apply the colormap
     point_numbers = range(rw.num_points)
